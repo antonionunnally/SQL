@@ -1,3 +1,4 @@
+#1. Give me a list of users who have logged meals
 select
 DISTINCT ts.UserId,
 p.FirstName,
@@ -58,7 +59,7 @@ join FoodItems fi on mi.fooditemid = fi.id
 --where p.FirstName = 'Antonio'
 order by created desc
 
-Meal Count User Stats
+#2. Meal Count User Stats
 SELECT p1.id,p1.FirstName, p1.LastName, 
 CONCAT(p1.FirstName, ' ' , p1.LastName) as 'Full Name', COUNT(*) as total_meals,
 CASE
