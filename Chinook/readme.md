@@ -2,18 +2,19 @@ This is an analysis of a digital media store's data using SQL.
 
 The Chinook data model represents a digital media store, and it contains 11 tables;
 
-album
-artist
-customer
-employee
-genre
-invoice
-invoice_line
-media_type
-playlist
-playlist_track
-track
-Sample Data
+* album
+* artist
+* customer
+* employee
+* genre
+* invoice
+* invoice_line
+* media_type
+* playlist
+* playlist_track
+* track
+ **…. ** Sample Data
+ 
 Media related data was created using real data from an iTunes Library. Sales information was auto generated using random data over a four year period. Customer and employee information were manually created using fictitious names, addresses that can be located on Google maps, as well as postal_code,email, phone, fax.
 
 Background
