@@ -4,6 +4,8 @@ This is an analysis of a digital media store's data using SQL.
 
 **Data**
 
+![chinook_schema](https://user-images.githubusercontent.com/97487571/217852297-ed2eb123-01e7-476c-a9a5-3eb76dc35c1a.png)
+
 
 The Chinook data model represents a digital media store, and it contains 11 tables;
 
