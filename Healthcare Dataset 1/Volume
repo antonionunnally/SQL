@@ -1,0 +1,44 @@
+-- How many encounters did we have in 2019?
+
+SELECT COUNT(*)  -- this line counts the number of records that meet the criteria below
+FROM HEALTHCARE.ENCOUNTERS -- this line identifies the table we want to pull from
+WHERE START>='2019-01-01' -- this line identifies what start dates we want to pull on and after 
+				AND START<'2020-01-01'; -- this line makes sure we don't pull farther out than we want 
+
+
+-- How many distinct patients did we treat in 2019?
+
+
+SELECT COUNT(DISTINCT PATIENT) -- by adding a distinct and identifying the column here, we can ensure we don't just count rows
+FROM HEALTHCARE.ENCOUNTERS
+WHERE START>='2019-01-01'
+				AND START<'2020-01-01';
+
+
+-- How many inpatient encounters did we have in 2019?
+
+SELECT *
+FROM HEALTHCARE.ENCOUNTERS
+WHERE START>='2019-01-01'
+				AND START<'2020-01-01'
+                AND ENCOUNTERCLASS='inpatient'; -- this is how we add an additional criteria
+
+
+-- How many ambulatory encounters did we have in 2019?
+
+SELECT COUNT(*)
+FROM HEALTHCARE.ENCOUNTERS
+WHERE START>='2019-01-01'
+				AND START<'2020-01-01'
+                AND ENCOUNTERCLASS='ambulatory';
+                
+-- reviewing encounter classes 
+
+SELECT DISTINCT ENCOUNTERCLASS
+FROM HEALTHCARE.ENCOUNTERS;
+
+SELECT COUNT(*)
+FROM HEALTHCARE.ENCOUNTERS
+WHERE START>='2019-01-01'
+				AND START<'2020-01-01'
+                AND ENCOUNTERCLASS IN ('ambulatory','wellness','outpatient','urgentcare'); -- this is how we can add a list of criteria without many new lines of code
