@@ -1,0 +1,55 @@
+-- How many patients had documented uncontrolled hypertension at any time in 2018 and 2019? 140/90 is cutoff
+SELECT DISTINCT PATIENT
+FROM HEALTHCARE.OBSERVATIONS
+WHERE 
+				(
+                
+					(DESCRIPTION = 'Diastolic Blood Pressure' AND VALUE>90)
+						OR (DESCRIPTION = 'Systolic Blood Pressure' AND VALUE>140)
+				
+                )
+                
+                AND DATE>='2018-01-01'
+                AND DATE<'2020-01-01';
+
+
+-- Which providers treated patients with uncontrolled hypertension in 2018 and 2019?
+
+
+SELECT DISTINCT BP.PATIENT
+, PRO.NAME AS PROVIDERNAME
+, PRO.SPECIALITY 
+FROM HEALTHCARE.OBSERVATIONS BP
+JOIN HEALTHCARE.ENCOUNTERS ENC ON BP.PATIENT=ENC.PATIENT
+																			AND ENC.START>=BP.DATE
+JOIN HEALTHCARE.PROVIDERS PRO ON ENC.PROVIDER=PRO.ID
+WHERE 
+				(
+                
+					(BP.DESCRIPTION = 'Diastolic Blood Pressure' AND BP.VALUE>90)
+						OR (BP.DESCRIPTION = 'Systolic Blood Pressure' AND BP.VALUE>140)
+				
+                )
+                
+                AND BP.DATE>='2018-01-01'
+                AND BP.DATE<'2020-01-01';
+
+-- What medications were given to patients with uncontrolled hypertension?
+
+
+SELECT DISTINCT BP.PATIENT
+,MED.DESCRIPTION AS MEDICATION
+FROM HEALTHCARE.OBSERVATIONS BP
+JOIN HEALTHCARE.MEDICATIONS MED ON BP.PATIENT=MED.PATIENT
+																			AND MED.START>=BP.DATE
+WHERE 
+				(
+                
+					(BP.DESCRIPTION = 'Diastolic Blood Pressure' AND BP.VALUE>90)
+						OR (BP.DESCRIPTION = 'Systolic Blood Pressure' AND BP.VALUE>140)
+				
+                )
+                
+                AND BP.DATE>='2018-01-01'
+                AND BP.DATE<'2020-01-01';
+
