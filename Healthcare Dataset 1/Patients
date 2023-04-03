@@ -1,0 +1,83 @@
+-- What is our patient mix by gender, race and ethnicity? 
+
+SELECT 
+GENDER
+,COUNT(*)
+FROM HEALTHCARE.PATIENTS
+GROUP BY GENDER -- new function introduced called the group by, we want to make sure the column(s) mentioned here also appear in the select statement
+;
+
+SELECT 
+RACE
+,COUNT(*)
+FROM HEALTHCARE.PATIENTS
+GROUP BY RACE
+;
+
+SELECT 
+ETHNICITY
+,COUNT(*)
+FROM HEALTHCARE.PATIENTS
+GROUP BY ETHNICITY 
+;
+
+SELECT 
+RACE
+,ETHNICITY
+,COUNT(*)
+FROM HEALTHCARE.PATIENTS
+GROUP BY RACE, ETHNICITY -- we can have multiple columns in a group by
+;
+
+
+SELECT 
+GENDER
+,RACE
+,ETHNICITY
+,COUNT(*)
+FROM HEALTHCARE.PATIENTS
+GROUP BY GENDER, RACE, ETHNICITY 
+;
+
+-- What about age?
+
+SELECT 
+ID
+,BIRTHDATE
+,FLOOR(DATEDIFF(curdate(),BIRTHDATE)/365.25) AS AGE_IN_YEARS -- date diff function allows calculating the difference in days
+FROM HEALTHCARE.PATIENTS;
+
+
+-- How many states and zip codes do we treat patients from?
+
+SELECT DISTINCT STATE
+FROM HEALTHCARE.PATIENTS;
+
+SELECT DISTINCT ZIP
+,COUNT(*)
+FROM HEALTHCARE.PATIENTS
+GROUP BY ZIP;
+
+
+-- Which state, zip, and county do we treat the most patients from?
+
+SELECT DISTINCT COUNTY
+,COUNT(*)
+FROM HEALTHCARE.PATIENTS
+GROUP BY COUNTY;
+
+
+-- What is our patient mix for patients who had an inpatient encounter in 2019?
+
+
+SELECT 
+GENDER
+,RACE
+,ETHNICITY
+,COUNT(*) AS VOLUMES
+FROM HEALTHCARE.ENCOUNTERS ENC
+JOIN HEALTHCARE.patients PAT ON ENC.PATIENT=PAT.ID
+WHERE START>='2019-01-01'
+AND START<'2020-01-01'
+AND ENCOUNTERCLASS='inpatient'
+GROUP BY GENDER, RACE, ETHNICITY
