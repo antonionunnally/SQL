@@ -23,5 +23,5 @@ The data model represents a  Healthcare Database, and it contains 15 tables;
 # Length of Stay
 ![Length of Stay](https://user-images.githubusercontent.com/97487571/230985480-b31f7053-7e90-48d5-9d28-759893350248.png)
 
-# Readmissions!
+# Readmissions
 [Readmissions](https://user-images.githubusercontent.com/97487571/230985659-89bee928-1522-47e4-bbf7-5bc550d39af7.png)
