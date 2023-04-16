@@ -1,3 +1,10 @@
+
+
+
+![DD image 2](https://user-images.githubusercontent.com/97487571/232326528-d8927d19-747f-49ec-8b40-7e198612516e.png)
+
+
+
 **Introduction**
 
 Danny seriously loves Japanese food so in the beginning of 2021, he decides to embark upon a risky venture and opens up a cute little restaurant that sells his 3 favourite foods: sushi, curry and ramen.
@@ -10,3 +17,14 @@ Danny wants to use the data to answer a few simple questions about his customers
 He plans on using these insights to help him decide whether he should expand the existing customer loyalty program - additionally he needs help to generate some basic datasets so his team can easily inspect the data without needing to use SQL.
 
 Danny has provided you with a sample of his overall customer data due to privacy issues - but he hopes that these examples are enough for you to write fully functioning SQL queries to help him answer his questions!
+
+
+Danny has shared with you 3 key datasets for this case study:
+
+* sales
+* menu
+* members
+
+**Entity Relationship Diagram**
+
+![Entity Relationship Diagram](https://user-images.githubusercontent.com/97487571/232326426-04a521f4-772e-4d96-8eb0-438c2eaa9bee.png)
