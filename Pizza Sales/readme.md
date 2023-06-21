@@ -1,11 +1,12 @@
 
 ![0001](https://github.com/antonionunnally/SQL/assets/97487571/67c4ba30-fc21-4708-8d7d-99a67de01d22)
 
+![0002](https://github.com/antonionunnally/SQL/assets/97487571/6b7f7f67-c2fe-4ad8-a9aa-ba8efd895590)
+
 
 A year's worth of sales from a fictitious pizza place, including the date and time of each order and the pizzas served, with additional details on the type, size, quantity, price, and ingredients.
 
-**PIZZA SALES SQL QUERIES**
-KPI"s
+**PIZZA SALES SQL QUERIES KPI"s **
 1. Total Revenue:
 SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales;
 
