@@ -3,7 +3,8 @@
     -- This is the solution for 1st case study of the challenge
 
 
-**Query #1**
+**Query #2**
+How many days has each customer visited the restaurant?
 
     Select customer_id, count(distinct(order_date))as days
     From Sales
