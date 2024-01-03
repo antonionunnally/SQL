@@ -1,4 +1,4 @@
-# SQL hospital database
+# SQL Hospital Database
 
 ![Healthcare image](https://github.com/antonionunnally/SQL/assets/97487571/c025be70-139b-4000-96ad-7c90de4066bd)
 
