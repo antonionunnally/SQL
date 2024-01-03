@@ -113,6 +113,3 @@ to credentialing (AdjustmentReason )?**
 credentialing adjustments?**
 
 ![Question 10b](https://github.com/antonionunnally/SQL/assets/97487571/ff90b0a7-4769-4cf1-9353-82d6e78c8c2d)
-
-
-## Insights/Recommendations
