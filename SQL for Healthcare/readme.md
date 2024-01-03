@@ -13,10 +13,19 @@ As a data analyst interested in healthcare, I was inspired to query a hospital d
 - Micrcosoft Excel 
 - Microsoft SQL Server
 
-## Problem Statement
-
 
 ## Data Sourcing
+We have 9 tables 
+- FactTable
+- DimPatient
+- DimTransaction
+- DimPhysician
+- DimPayer
+- DimLocation
+- DimDiagnosisCode
+- DimCptCode
+- DimDate
+
 
 ## Entity Relationship Diagram
 
@@ -24,8 +33,11 @@ As a data analyst interested in healthcare, I was inspired to query a hospital d
 
 
 ## Data Dictionary
+The data dictionary consist of 43 rows. Attached is a Pdf file.
 [Data Dictionary.pdf](https://github.com/antonionunnally/SQL/files/13814890/Data.Dictionary.pdf)
 
+
+## SQL Queries
 
 **Question 1. How many rows of data are in the FactTable that include a Gross Charge greater than $100?**
 
