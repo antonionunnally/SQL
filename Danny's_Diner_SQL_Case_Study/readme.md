@@ -1,13 +1,10 @@
-
-
-
-![DD image 2](https://user-images.githubusercontent.com/97487571/232326528-d8927d19-747f-49ec-8b40-7e198612516e.png)
+# Danny’s Diner
 
 ## Table of Contents
 - [Introduction](#introduction)
 - [Skills Applied](#skills-applied)
 - [Problem Statement](#problem-statement)
-- [Case Study Questions](#Case-Study-Questions)
+- [Case Study Questions](#case-study-questions)
 
 **Introduction**
 
