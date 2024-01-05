@@ -39,7 +39,7 @@ Danny has shared with you 3 key datasets for this case study:
 ![Entity Relationship Diagram](https://user-images.githubusercontent.com/97487571/232326426-04a521f4-772e-4d96-8eb0-438c2eaa9bee.png)
 
 
-**Case Study Questions**
+### Case Study Questions 
 
 1. What is the total amount each customer spent at the restaurant?
 2. How many days has each customer visited the restaurant?
