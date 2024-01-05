@@ -7,7 +7,7 @@
 - [Introduction](#introduction)
 - [Skills Applied](#skills-applied)
 - [Problem Statement](#problem-statement)
-- [Case Study Questions](case-study-questions)
+- [Case Study Questions](#case-study-questions)
 
 **Introduction**
 
