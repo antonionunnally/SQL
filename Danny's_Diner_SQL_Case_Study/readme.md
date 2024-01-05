@@ -6,6 +6,7 @@
 ##Table of Contents
 - [Introduction](#introduction)
 - [Skills Applied](#skills-applied)
+- [Case Study Questions](#case-study-questions)
 
 **Introduction**
 
