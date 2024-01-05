@@ -2,6 +2,14 @@
 
 ![Healthcare image](https://github.com/antonionunnally/SQL/assets/97487571/c025be70-139b-4000-96ad-7c90de4066bd)
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Tools used](#tools-used)
+- [Data Sourcing](#data-sourcing)
+- [Entity Relationship Diagram](#entity-relationship-diagram)
+- [Data Dictionary](#data-dictionary)
+- [SQL Queries](#sql-queries)
+
 
 ## Introduction:
 
@@ -9,12 +17,12 @@ As a data analyst interested in healthcare, I was inspired to query a hospital d
 
 **_Disclaimer_**: All dataset and information reflected in this report does not represent any company, institution, or country, but just a dummy dataset to demonstrate the capabilities of Microsoft SQL Server
 
-## Tools used:
+### Tools used:
 - Micrcosoft Excel 
 - Microsoft SQL Server
 
 
-## Data Sourcing
+### Data Sourcing
 We have 9 tables 
 - FactTable
 - DimPatient
@@ -27,17 +35,17 @@ We have 9 tables
 - DimDate
 
 
-## Entity Relationship Diagram
+### Entity Relationship Diagram
 
 ![ERD Model](https://github.com/antonionunnally/SQL/assets/97487571/9c57dfe7-d9b9-451d-a1f6-99dccd5d66a2)
 
 
-## Data Dictionary
+### Data Dictionary
 The data dictionary consist of 43 rows. Attached is a Pdf file.
 [Data Dictionary.pdf](https://github.com/antonionunnally/SQL/files/13814890/Data.Dictionary.pdf)
 
 
-## SQL Queries
+### SQL Queries
 
 **Question 1. How many rows of data are in the FactTable that include a Gross Charge greater than $100?**
 
