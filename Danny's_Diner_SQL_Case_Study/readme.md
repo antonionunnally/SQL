@@ -6,7 +6,7 @@
 - [Problem Statement](#problem-statement)
 - [Entity Relationship Diagram](#entity-relationship-diagram)
 - [Case Study Questions](#case-study-questions)
-- [View SQL queries](#view-sql-ueries)
+- [View SQL queries](#view-sql-queries)
 
 ### Introduction
 
