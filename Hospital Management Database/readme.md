@@ -13,7 +13,7 @@
 
 ## Introduction:
 
-As a data analyst interested in healthcare, I was inspired to query a hospital database to acquire key insights on the patients. As such, this article aims to answer questions concerning these patients with details provided in the database.
+Hospital Database Management System (DBMS) is a comprehensive SQL project designed to streamline and optimize the management of hospital operations. This project aims to provide an efficient and user-friendly solution for storing, retrieving, and manipulating various types of healthcare-related data.
 
 **_Disclaimer_**: All dataset and information reflected in this report does not represent any company, institution, or country, but just a dummy dataset to demonstrate the capabilities of Microsoft SQL Server
 
