@@ -24,15 +24,15 @@ Hospital Database Management System (DBMS) is a comprehensive SQL project design
 
 ### Data Sourcing
 We have 9 tables 
-- FactTable
-- DimPatient
-- DimTransaction
-- DimPhysician
-- DimPayer
-- DimLocation
-- DimDiagnosisCode
-- DimCptCode
-- DimDate
+- _FactTable_
+- _DimPatient_
+- _DimTransaction_
+- _DimPhysician_
+- _DimPayer_
+- _DimLocation_
+- _DimDiagnosisCode_
+- _DimCptCode_
+- _DimDate_
 
 
 ### Entity Relationship Diagram
