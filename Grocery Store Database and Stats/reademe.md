@@ -16,9 +16,6 @@ INSERT INTO store VALUES (13, "vitamin D", "health", 8.99,29);
 INSERT INTO store VALUES (14, "nutritional yeast", "health", 2.99, 26);
 INSERT INTO store VALUES (15, "popcorn", "snacks", 1.99, 47);
 
---display the database ordered by price. 
-SELECT * FROM store
-ORDER BY price desc; 
 
 **Schema (MySQL v5.7)**
 
@@ -42,7 +39,7 @@ ORDER BY price desc;
 
 ---
 
-**Query #1**
+**Query #1** Display the database ordered by price. 
 
     SELECT * FROM store
     ORDER BY price desc;
@@ -70,13 +67,40 @@ ORDER BY price desc;
 [View on DB Fiddle](https://www.db-fiddle.com/)
 
 
---what is the avg price of items in the bulk section? 
-SELECT AVG(price) "avg bulk item price"
-FROM store
-where section='bulk'; 
+---
 
---what are the most 5 popular items? 
-SELECT item, price, popularity
-FROM store
-order by popularity desc
-limit 5; 
+**Query #2** what is the avg price of items in the bulk section? 
+
+    SELECT AVG(price) "avg bulk item price"
+    FROM store
+    where section='bulk';
+
+| avg bulk item price |
+| ------------------- |
+| 1.5000              |
+
+---
+
+[View on DB Fiddle](https://www.db-fiddle.com/)
+
+
+
+
+**Query #3** What are the most 5 popular items? 
+
+    SELECT item, price, popularity
+    FROM store
+    order by popularity desc
+    limit 5;
+
+| item           | price | popularity |
+| -------------- | ----- | ---------- |
+| banana         | 1     | 95         |
+| granola        | 2     | 80         |
+| chick'n nuggs  | 5     | 75         |
+| beyond burgers | 5     | 65         |
+| qtips          | 3     | 55         |
+
+---
+
+[View on DB Fiddle](https://www.db-fiddle.com/)
