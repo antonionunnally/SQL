@@ -25,4 +25,4 @@ In this project, I used a dataset found on Kaggle to analyze trends in the top 5
 ![DD image 2](https://github.com/antonionunnally/SQL/assets/97487571/3f57870d-19e9-472a-a318-4aa48c44a0a0)
 
 ### **Danny’s Diner** 
-- [SQL]([https://github.com/antonionunnally/SQL/tree/main/Pizza%20Sales](https://github.com/antonionunnally/SQL/tree/main/Danny's_Diner_SQL_Case_Study): In this project, I used a dataset from Danny's Dinner. Danny’s Diner is in need of your assistance to help the restaurant stay afloat — the restaurant has captured some very basic data from their few months of operation but have no idea how to use their data to help them run the business.
+- [SQL](https://github.com/antonionunnally/SQL/tree/main/Pizza%20Sales](https://github.com/antonionunnally/SQL/tree/main/Danny's_Diner_SQL_Case_Study): In this project, I used a dataset from Danny's Dinner. Danny’s Diner is in need of your assistance to help the restaurant stay afloat — the restaurant has captured some very basic data from their few months of operation but have no idea how to use their data to help them run the business.
