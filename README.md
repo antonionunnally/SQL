@@ -9,13 +9,13 @@ Below are a few highlighted projects, feel free to take a look and reach out by 
 ## Highlighted Projects
 ![Spotify_Logo_CMYK_Green](https://github.com/antonionunnally/SQL/assets/97487571/dde4a5e5-1738-4bc2-b51a-ac9cbceef88f)
 
-### Spotify Top Songs Analaysis** 
+### **Spotify Top Songs Analaysis** 
 - [SQL](https://github.com/antonionunnally/SQL/tree/main/Spotify%20Analytics): 
 In this project, I used a dataset found on Kaggle to analyze trends in the top 50 songs of 2021. Using pitch-class integer notation, I examined the key and tonality for these top songs. I joined data from a Hooktheory database to compare the most popular song keys with the song keys most represented in the top 50 Spotify tracks of 2021.
 
 ![Pizza Icon](https://github.com/antonionunnally/SQL/assets/97487571/7ecf6762-2179-4209-aa3e-f358ef3f7c91)
 
-**Pizza Sales** 
+### **Pizza Sales** 
 - [SQL](https://github.com/antonionunnally/SQL/tree/main/Pizza%20Sales): In this project, I used a dataset from Maven Analytics on a year's worth of sales data from a fictitious pizza place. The data included the date and time of each order and the pizzas served, along with additional details on the type, size, quantity, price, and ingredients.
 
 
