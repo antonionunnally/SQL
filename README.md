@@ -1,6 +1,6 @@
 
  # ![Sql_data_base_with_logo](https://github.com/antonionunnally/SQL/assets/97487571/bf157754-d0f0-4639-bfdc-c4c84b8a0723)
-Antonio Nunnally's SQL Portfolio
+# Antonio Nunnally's SQL Portfolio
 Hello, and welcome to my SQL Portfolio! This repository contains examples of SQL code I've written for solo projects. 
 Listed below is a table of contents and a few highlighted projects, feel free to take a look and reach out by on [LinkedIn](https://www.linkedin.com/in/antonionunnally) or by [email](nunnally_a@yahoo.com) if you have any feedback or questions. 
 
@@ -17,9 +17,8 @@ Listed below is a table of contents and a few highlighted projects, feel free to
 ## Highlighted Projects
 ![Spotify_Logo_CMYK_Green](https://github.com/antonionunnally/SQL/assets/97487571/dde4a5e5-1738-4bc2-b51a-ac9cbceef88f)
 
-### **Spotify Top Songs Analaysis** 
-- [SQL](https://github.com/antonionunnally/SQL/tree/main/Spotify%20Analytics): 
-In this project, I used a dataset found on Kaggle to analyze trends in the top 50 songs of 2021. Using pitch-class integer notation, I examined the key and tonality for these top songs. I joined data from a Hooktheory database to compare the most popular song keys with the song keys most represented in the top 50 Spotify tracks of 2021.
+### **[Spotify Top Songs Analaysis](https://github.com/antonionunnally/SQL/tree/main/Spotify%20Analytics)** 
+- In this project, I used a dataset found on Kaggle to analyze trends in the top 50 songs of 2021. Using pitch-class integer notation, I examined the key and tonality for these top songs. I joined data from a Hooktheory database to compare the most popular song keys with the song keys most represented in the top 50 Spotify tracks of 2021.
 
 
 ![Pizza Icon](https://github.com/antonionunnally/SQL/assets/97487571/7ecf6762-2179-4209-aa3e-f358ef3f7c91)
