@@ -1,4 +1,6 @@
-# Antonio Nunnally's SQL Portfolio
+
+ # ![Sql_data_base_with_logo](https://github.com/antonionunnally/SQL/assets/97487571/bf157754-d0f0-4639-bfdc-c4c84b8a0723)
+Antonio Nunnally's SQL Portfolio
 Hello, and welcome to my SQL Portfolio! This repository contains examples of SQL code I've written for solo projects. 
 Listed below is a table of contents and a few highlighted projects, feel free to take a look and reach out by on [LinkedIn](https://www.linkedin.com/in/antonionunnally) or by [email](nunnally_a@yahoo.com) if you have any feedback or questions. 
 
