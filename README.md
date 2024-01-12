@@ -4,7 +4,7 @@ Below are a few highlighted projects, feel free to take a look and reach out by 
 
 ## Table of Contents
 - [Spotify Top Songs Analaysis](#spotify-top-songs-analaysis)
-- [Pizza Sales](pizza-sales)
+- [Pizza Sales](#pizza-sales)
 
 ## Highlighted Projects
 ![Spotify_Logo_CMYK_Green](https://github.com/antonionunnally/SQL/assets/97487571/dde4a5e5-1738-4bc2-b51a-ac9cbceef88f)
