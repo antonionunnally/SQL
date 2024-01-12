@@ -23,12 +23,12 @@ Listed below is a table of contents and a few highlighted projects, feel free to
 
 ![Pizza Icon](https://github.com/antonionunnally/SQL/assets/97487571/7ecf6762-2179-4209-aa3e-f358ef3f7c91)
 
-### **Pizza Sales** 
-- [SQL](https://github.com/antonionunnally/SQL/tree/main/Pizza%20Sales): In this project, I used a dataset from Maven Analytics on a year's worth of sales data from a fictitious pizza place. The data included the date and time of each order and the pizzas served, along with additional details on the type, size, quantity, price, and ingredients.
+### **[Pizza Sales](https://github.com/antonionunnally/SQL/tree/main/Pizza%20Sales)**  
+- In this project, I used a dataset from Maven Analytics on a year's worth of sales data from a fictitious pizza place. The data included the date and time of each order and the pizzas served, along with additional details on the type, size, quantity, price, and ingredients.
 
 
 
 ![DD image 2](https://github.com/antonionunnally/SQL/assets/97487571/3f57870d-19e9-472a-a318-4aa48c44a0a0)
 
-### **Danny’s Diner** 
-- [SQL](https://github.com/antonionunnally/SQL/tree/main/Danny's_Diner_SQL_Case_Study): In this project, I used a dataset from Danny's Dinner. Danny’s Diner is in need of your assistance to help the restaurant stay afloat — the restaurant has captured some very basic data from their few months of operation but have no idea how to use their data to help them run the business.
+### **[Danny’s Diner](https://github.com/antonionunnally/SQL/tree/main/Danny's_Diner_SQL_Case_Study)** 
+- In this project, I used a dataset from Danny's Dinner. Danny’s Diner is in need of your assistance to help the restaurant stay afloat — the restaurant has captured some very basic data from their few months of operation but have no idea how to use their data to help them run the business.
