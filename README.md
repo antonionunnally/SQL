@@ -3,9 +3,9 @@ Hello, and Welcome to my SQL Portfolio! This code repository contains examples o
 Below are a few highlighted projects, feel free to take a look and reach out by on [LinkedIn](https://www.linkedin.com/in/antonionunnally) or by [email](nunnally_a@yahoo.com) if you have any feedback or questions. 
 
 ## Table of Contents
-- [Spotify Top Songs Analaysis](#spotify-top-songs-analaysis)
-- [Pizza Sales](#pizza-sales)
-- [Danny’s Diner](#danny’s-diner)
+- [Spotify Top Songs Analaysis](https://github.com/antonionunnally/SQL/tree/main/Spotify%20Analytics)
+- [Pizza Sales](https://github.com/antonionunnally/SQL/tree/main/Pizza%20Sales)
+- [Danny’s Diner](https://github.com/antonionunnally/SQL/tree/main/Danny's_Diner_SQL_Case_Study)
 
 ## Highlighted Projects
 ![Spotify_Logo_CMYK_Green](https://github.com/antonionunnally/SQL/assets/97487571/dde4a5e5-1738-4bc2-b51a-ac9cbceef88f)
@@ -25,4 +25,4 @@ In this project, I used a dataset found on Kaggle to analyze trends in the top 5
 ![DD image 2](https://github.com/antonionunnally/SQL/assets/97487571/3f57870d-19e9-472a-a318-4aa48c44a0a0)
 
 ### **Danny’s Diner** 
-- [SQL]([https://github.com/antonionunnally/SQL/tree/main/Pizza%20Sales](https://github.com/antonionunnally/SQL/tree/main/Danny's_Diner_SQL_Case_Study)): In this project, I used a dataset from Danny's Dinner. Danny’s Diner is in need of your assistance to help the restaurant stay afloat — the restaurant has captured some very basic data from their few months of operation but have no idea how to use their data to help them run the business.
+- [SQL]([https://github.com/antonionunnally/SQL/tree/main/Pizza%20Sales](https://github.com/antonionunnally/SQL/tree/main/Danny's_Diner_SQL_Case_Study): In this project, I used a dataset from Danny's Dinner. Danny’s Diner is in need of your assistance to help the restaurant stay afloat — the restaurant has captured some very basic data from their few months of operation but have no idea how to use their data to help them run the business.
