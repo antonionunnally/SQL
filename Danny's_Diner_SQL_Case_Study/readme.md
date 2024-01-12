@@ -1,3 +1,6 @@
+
+![DD image 2](https://github.com/antonionunnally/SQL/assets/97487571/347365ec-c6d8-4001-ae32-06b1c8b09dff)
+
 # Danny’s Diner
 
 ## Table of Contents
