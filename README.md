@@ -4,7 +4,7 @@
 👋 Hello, and welcome to my SQL Portfolio! 
 This repository contains examples of SQL code I've written for solo projects. 
 Listed below is a table of contents and a few highlighted projects. Feel free to take a look around and If you have any feedback or questions reach out by:
--  [LinkedIn](https://www.linkedin.com/in/antonionunnally) 
+-  🤝[LinkedIn](https://www.linkedin.com/in/antonionunnally) 
 -  📫 [Email](nunnally_a@yahoo.com)  
 
 ## Table of Contents
