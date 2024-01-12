@@ -1,4 +1,4 @@
-# Spotify SQL Portfolio
+# Spotify Top Songs 2021 Data Analysis
 - For this project, I downloaded Spotify data from Kaggle.
 - Then I created a table to insert Spotify data into.
 - Finally, I performed analytics on the data using SQL. 
