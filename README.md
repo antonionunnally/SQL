@@ -3,9 +3,14 @@ Hello, and welcome to my SQL Portfolio! This repository contains examples of SQL
 Listed below is a table of contents and a few highlighted projects, feel free to take a look and reach out by on [LinkedIn](https://www.linkedin.com/in/antonionunnally) or by [email](nunnally_a@yahoo.com) if you have any feedback or questions. 
 
 ## Table of Contents
+- [Hospital Management Database](https://github.com/antonionunnally/SQL/tree/main/Hospital%20Management%20Database)
 - [Spotify Top Songs Analaysis](https://github.com/antonionunnally/SQL/tree/main/Spotify%20Analytics)
 - [Pizza Sales](https://github.com/antonionunnally/SQL/tree/main/Pizza%20Sales)
 - [Danny’s Diner](https://github.com/antonionunnally/SQL/tree/main/Danny's_Diner_SQL_Case_Study)
+- [Chinook](https://github.com/antonionunnally/SQL/tree/main/Chinook)
+- [Customer & Order Analytics](https://github.com/antonionunnally/SQL/tree/main/Customer%20%26%20Order%20Analytics)
+- [Grocery Store Database](https://github.com/antonionunnally/SQL/tree/main/Grocery%20Store%20Database%20and%20Stats)
+- [Netflix Analytics](https://github.com/antonionunnally/SQL/tree/main/Netflix%20Analytics)
 
 ## Highlighted Projects
 ![Spotify_Logo_CMYK_Green](https://github.com/antonionunnally/SQL/assets/97487571/dde4a5e5-1738-4bc2-b51a-ac9cbceef88f)
