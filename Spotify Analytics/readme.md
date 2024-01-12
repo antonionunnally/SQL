@@ -1,3 +1,6 @@
+
+![Spotify_Logo_CMYK_Green](https://github.com/antonionunnally/SQL/assets/97487571/61cf2283-9cbe-4f92-9042-897cf78022df)
+
 # Spotify Top Songs 2021 Data Analysis
 - For this project, I downloaded Spotify data from Kaggle.
 - Then I created a table to insert Spotify data into.
