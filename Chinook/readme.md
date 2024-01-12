@@ -1,4 +1,4 @@
-### Digital-Media-Store-Analysis-with-SQL 
+# Digital-Media-Store-Analysis-with-SQL 
 
 This is an analysis of a digital media store's data using SQL.
 
@@ -21,14 +21,16 @@ The Chinook data model represents a digital media store, and it contains 11 tabl
 * playlist_track
 * track
 
- **Sample Data**
+ - **Sample Data:**
  
 Media related data was created using real data from an iTunes Library. Sales information was auto generated using random data over a four year period. Customer and employee information were manually created using fictitious names, addresses that can be located on Google maps, as well as postal_code,email, phone, fax.
 
-**Background**
+- **Background:**
+  
 The name chinook is based on the Northwind database. Chinooks are winds in the interior West of North America, where the Canadian Prairies and Great Plains meet various mountain ranges. Chinooks are most prevalent over southern Alberta in Canada. The chinook database was created as an alternative to the Northwind data.
 
-**Analysis**
+- **Analysis:**
+
 The chinook db provides information on a music digital store. I analyzed the data with SQL in order to get some insight into how the business is doing.
 
-The jupyter notebook; chinook.ipynb contains the queries and visualizations, while the chinook.sql file contains the queries. You can run either of these on your local machine.
+- **[View SQL Queries Here:](https://github.com/antonionunnally/SQL/blob/main/Chinook/Chinook.ipynb)**
